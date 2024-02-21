@@ -603,7 +603,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: START
+  m_Text: "\uC2DC\uC791"
 --- !u!222 &317179179
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1341,7 +1341,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: OPTION
+  m_text: "\uC124\uC815"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f0555d2670a7e1b49a19bd88dbba0926, type: 2}
   m_sharedMaterial: {fileID: -4899748469480746018, guid: f0555d2670a7e1b49a19bd88dbba0926, type: 2}
@@ -2203,7 +2203,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: UPGRAD GAME
+  m_text: "\uBB34\uAE30 \uAC15\uD654 \uAC8C\uC784"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f0555d2670a7e1b49a19bd88dbba0926, type: 2}
   m_sharedMaterial: {fileID: -4899748469480746018, guid: f0555d2670a7e1b49a19bd88dbba0926, type: 2}
@@ -3098,7 +3098,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: EXIT
+  m_text: "\uC885\uB8CC"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f0555d2670a7e1b49a19bd88dbba0926, type: 2}
   m_sharedMaterial: {fileID: -4899748469480746018, guid: f0555d2670a7e1b49a19bd88dbba0926, type: 2}
