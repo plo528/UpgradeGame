@@ -11,6 +11,9 @@ public class TextTMPviewer : MonoBehaviour
     [SerializeField] private TextMeshProUGUI textNeedGold;
     [SerializeField] private TextMeshProUGUI textSellGold;
     [SerializeField] private TextMeshProUGUI textWeaponName;
+    [SerializeField] private TextMeshProUGUI textUpgrade;
+    [SerializeField] private TextMeshProUGUI textSell;
+    [SerializeField] private TextMeshProUGUI textBroken;
     [SerializeField] private PlayerGold playerGold;
     [SerializeField] private WeaponUpgrade weaponUpgrade;
 
@@ -22,5 +25,8 @@ public class TextTMPviewer : MonoBehaviour
         textNeedGold.text = weaponUpgrade.needGold.ToString();
         textSellGold.text = weaponUpgrade.sellGold.ToString();
         textWeaponName.text = weaponUpgrade.weaponNaming;
+        textUpgrade.text = weaponUpgrade.upgradeBtn;
+        textSell.text = weaponUpgrade.sellBtn;
+        textBroken.text = weaponUpgrade.notBroken.ToString();
     }
 }

@@ -5,9 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class SceneChange : MonoBehaviour
 {
-    public void MoveMain()
+    public void MoveIntro()
     {
-        SceneManager.LoadScene("MainScene");
+        SceneManager.LoadScene("IntroScene");
     }
     public void MoveUpgrade()
     {

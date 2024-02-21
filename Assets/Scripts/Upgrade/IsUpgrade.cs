@@ -36,4 +36,17 @@ public class IsUpgrade : MonoBehaviour
         textUpgrade.color = new Color32(255, 40, 40, 0);
         tmpAlpha.FadeOut();
     }
+
+    public void PrintTextShop()
+    {
+        textUpgrade.text = "강화중 이용불가";
+        textUpgrade.color = new Color32(255, 40, 40, 0);
+        tmpAlpha.FadeOut();
+    }
+    public void PrintTextBroken()
+    {
+        textUpgrade.text = "복구권 부족";
+        textUpgrade.color = new Color32(255, 40, 40, 0);
+        tmpAlpha.FadeOut();
+    }
 }
